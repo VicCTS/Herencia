@@ -1318,7 +1318,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 595296706}
-  m_LocalRotation: {x: 0.10911676, y: -0.000000014812188, z: 0.0000000016259666, w: 0.994029}
+  m_LocalRotation: {x: 0.109116785, y: 2.1213517e-17, z: 5.4593818e-17, w: 0.994029}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1865,7 +1865,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 849907095}
-  m_LocalRotation: {x: 0.09101784, y: -0.000000017191898, z: 0.0000000015712914, w: 0.99584925}
+  m_LocalRotation: {x: 0.09101784, y: -0.000000017297216, z: 0.0000000015809175, w: 0.99584925}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1951,7 +1951,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.09101785, y: -0.000000034298434, z: 0.0000000031347809, w: 0.9958493}
+  m_LocalRotation: {x: 0.09101785, y: -0.00000003435134, z: 0.000000003139617, w: 0.9958493}
   m_LocalPosition: {x: -1.99, y: 3.3, z: -1.3600001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2062,7 +2062,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048254912}
-  m_LocalRotation: {x: 0.072936706, y: -0.000000020924196, z: 0.0000000015302174, w: 0.99733657}
+  m_LocalRotation: {x: 0.072936706, y: -0.000000017699232, z: 0.0000000012943713, w: 0.99733657}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2455,7 +2455,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1186507939}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f637b297dad5c8409fe05f4268c2959, type: 3}
+  m_Script: {fileID: 11500000, guid: c806cfb5f74240e4e83d5aea8cd18b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 0}

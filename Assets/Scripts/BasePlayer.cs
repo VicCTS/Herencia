@@ -24,27 +24,6 @@ public class BasePlayer : MonoBehaviour
     //variables para rotacion del personaje
     private float turnSmoothVelocity;
     public float turnSmoothTime = 0.1f;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        //Asignamos el character controller a su variable
-        controller = GetComponent<CharacterController>();
-        anim = GetComponentInChildren<Animator>();
-
-        //Con esto podemos esconder el icono del raton para que no moleste
-        Cursor.lockState = CursorLockMode.Locked;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //Llamamos la funcion de movimiento
-        Movement();
-            
-        //Lamamaos la funcion de salto
-        Jump();
-    }
 
 #region FuncionesDeMovimiento
     //Movimiento TPS con Freelook camera
@@ -115,6 +94,11 @@ public class BasePlayer : MonoBehaviour
         controller.Move(playerVelocity * Time.deltaTime);
     }
 #endregion
+
+    public virtual void Attack()
+    {
+        Debug.Log("Estoy atacando");
+    }
 
     //Funcion para dibujar Gizmos
     void OnDrawGizmosSelected()
